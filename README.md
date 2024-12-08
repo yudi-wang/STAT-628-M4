@@ -1,8 +1,8 @@
-#  Project: Spotify
+#  Project: Descriptive Analysis of Podcast on spotify data
 Yuchen Xu, Yudi Wang.
 
 ## Description
-The holiday season (November to January) is one of the busiest times for airlines, with frequent delays and cancellations. This project uses data from the U.S. Department of Transportation and National Weather Service to identify patterns in holiday travel disruptions and offer practical tips for passengers to minimize delays and cancellations. Additionally, a predictive model will be developed to estimate gate arrival times, helping travelers better plan their holiday journeys.
+This project analyzes podcast episodes using descriptive text data. The dataset originally contained 11 columns, including key fields such as show_name, name (episode title), description (text data), category, and show_id. Key cleaning steps included verifying and addressing duplicates, tokenizing description text, and removing stop words for meaningful analysis. The cleaned dataset comprises 20 categories and 368,955 episodes.
 
 ## Repository Structure
 
@@ -14,21 +14,17 @@ The holiday season (November to January) is one of the busiest times for airline
   - Finds the second and third closest weather stations for airports where the initial data download failed.
 - **airporttimezone.ipynb**:
   - Determines the timezone associated with each airport.
-- **timezone_flight2.ipynb**:
-  - Organizes raw flight data.
-  - Standardizes the four key times in the flight data (CRSDepTime, CRSArrTime, DepTime, ArrTime) to Central Standard Time (CST).
 
 ### 2. Data
-- **ghcnh-station-list.csv**: Contains raw data on weather station information.
-- **flight_holidayseason.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw filght data.
-- **weather.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw weather data.
-- **flight_processed.zip**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains flight data with converted time zones.
+- **episode_pca_scores_filtered.csv**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw episode data.
+- **cleaned_descriptions.csv**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw weather data.
+- **episode_pca_scores_filtered.rds**:
 
 ### 3. Image
 - Contains various images and plots generated during the data analysis and modeling stages.
 
 ### 4. Summary
-- A document summarizing the key steps in data cleaning, model building, and model evaluation from the project.
+- A document summarizing the key steps in data cleaning and metrics building from the project.
 
 ## Shiny Link
 The Shiny app allows users to interactively . You can access the live app here:
