@@ -17,9 +17,13 @@ This project analyzes podcast episodes using descriptive text data. The dataset 
   - shiny.
 
 ### 2. Data
-- **episode_pca_scores_filtered.csv**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw episode data.
-- **cleaned_descriptions.csv**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw weather data.
-- **episode_pca_scores_filtered.rds**:
+- **Spotify data[Link](https://drive.google.com/drive/folders/1fSZ07bvUbuC6chVbvlBfLTbkyitCfYyp?dmr=1&ec=wgc-drive-globalnav-goto)**
+  - **episodes_with_category_and_showname.csv**:Contains raw episode data.
+  - **cleaned_descriptions.csv**: Contains cleaning data.
+  - **episode_pca_scores_filtered.csv**: Contains PCA data for episodes.
+  - **podcast_pca_scores_filtered.csv**: Contains PCA data for podcasts.
+  - **episode_pca_scores_filtered.rds**: Contains data for shiny.
+- **top_words_grouped.csv**: Top words with category.
 
 ### 3. Image
 - Contains various images and plots generated during the data analysis and modeling stages.
