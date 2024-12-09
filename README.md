@@ -7,17 +7,13 @@ This project analyzes podcast episodes using descriptive text data. The dataset 
 ## Repository Structure
 
 ### 1. Code
-- **628 M4 download.ipynb**:
-  - Download raw spotify data.
-- **process_data_showname.ipynb**:
-  - Data cleaning and PCA.
-- **Plot.ipynb**:
-  - visualization.
-- **app.R**:
-  - shiny.
+- **628 M4 download.ipynb**: Download raw spotify data.
+- **process_data_showname.ipynb**:Data cleaning and PCA.
+- **Plot.ipynb**: visualization.
+- **app.R**: shiny.
 
 ### 2. Data
-- **Spotify data[Link](https://drive.google.com/drive/folders/1fSZ07bvUbuC6chVbvlBfLTbkyitCfYyp?dmr=1&ec=wgc-drive-globalnav-goto)**
+- **Spotify data [Link](https://drive.google.com/drive/folders/1fSZ07bvUbuC6chVbvlBfLTbkyitCfYyp?dmr=1&ec=wgc-drive-globalnav-goto)**
   - **episodes_with_category_and_showname.csv**:Contains raw episode data.
   - **cleaned_descriptions.csv**: Contains cleaning data.
   - **episode_pca_scores_filtered.csv**: Contains PCA data for episodes.
