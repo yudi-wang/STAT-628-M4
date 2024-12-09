@@ -7,13 +7,14 @@ This project analyzes podcast episodes using descriptive text data. The dataset 
 ## Repository Structure
 
 ### 1. Code
-- **match1.ipynb**:
-  - Organizes raw airport and weather station data.
-  - Calculates the distance between latitude and longitude coordinates using the Haversine formula to match each airport with its corresponding weather station.
-- **match_faileddownload.ipynb**:
-  - Finds the second and third closest weather stations for airports where the initial data download failed.
-- **airporttimezone.ipynb**:
-  - Determines the timezone associated with each airport.
+- **628 M4 download.ipynb**:
+  - Download raw spotify data.
+- **process_data_showname.ipynb**:
+  - Data cleaning and PCA.
+- **Plot.ipynb**:
+  - visualization.
+- **app.R**:
+  - shiny.
 
 ### 2. Data
 - **episode_pca_scores_filtered.csv**:[Link](https://drive.google.com/drive/folders/1v58ex2g1cIhyhanGa5GJoaqEuNIUv4dI?dmr=1&ec=wgc-drive-hero-goto) Contains raw episode data.
@@ -28,4 +29,4 @@ This project analyzes podcast episodes using descriptive text data. The dataset 
 
 ## Shiny Link
 The Shiny app allows users to interactively . You can access the live app here:
-- [Shiny App Link](https://mario2747.shinyapps.io/flightpredict/)
+- [Shiny App Link](https://yxu647.shinyapps.io/shiny/)
